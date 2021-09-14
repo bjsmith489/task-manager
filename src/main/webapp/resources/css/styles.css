@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/*  ---------- general attributes ---------  */
+h1,h2,h3{
+	padding: .5em;
+	color: green;
+	
+}
+body{
+	background-color:#80ffff;
+	 	margin:2em;
+	
+}
+
+input{
+	border-style: inset;
+	border-radius:5px;
+	padding:0 15px 0 15px;
+}
+
+p {
+  	font-family: verdana;
+ 	font-size: 20px;
+}
+
+button,
+select {
+	border-style:inset;
+	border-radius:5px;
+}
+
+button:hover{
+	opacity:.8;
+	background-color: darkgrey;
+	transform: scale(1.1);
+	
+}
+table, th, td {
+  border: 1px solid black;
+  vertical-align: center;
+  padding:0 15px 0 15px;
+}
+
+
+.header{
+	min-height:4em;
+	background-color: darkblue;
+}
+.footer{
+	
+	min-height:4em;
+	background-color: darkblue;
+}
+/*  ---------- login ----------  */
+
+.login__register-btn{
+	height:40px;
+	width:100px;
+	margin-bottom:1em;
+}
+
+.login-green-box{
+	border-style: double;
+	background-color: #80ff00;
+	max-width: 40em;
+	position:center;
+	padding-right:2em;
+	padding-left:2em;
+	padding-bottom:1em;
+	margin: 2em;
+}
+
+/*  ---------- display-task Screen ----------*/
+
+.task-display{
+	border-style: double;
+	background-color: #80ff00;
+	margin: 2em;
+	max-width: 80em;
+}
+
+.task-add__h2 { 
+	color: black;
+}
+
+.task-add{
+	border-style: double;
+	background-color: #80ff00;
+	max-width: 40em;
+	position:center;
+	padding-right:2em;
+	padding-left:2em;
+	padding-bottom:2em;
+	margin: 2em;
+}
+
+.task-display__tr{
+	padding:15px;
+	
+}
+
+.task-header{
+	background-color: darkblue;
+	color: #80ff00;
+}
+
+.task-header__h1{
+	color: #80ff00;
+}
+
+.task-display__tr:nth-child(even) {
+	background-color: #00ff00;
+}
+.task-display__logout-btn{
+	width:100px;
+	margin-top:2em;
+	height:40px;
+}
+.task-display__table{
+	max-height:30em;
+	width: 100%;
+	overflow:auto;
+	display:block;
+}
+
+.task-add__btn{
+	margin-top:1em;
+	height:40px;
+	width:100px;
+}
+.display-task__table,
+.display-task__td,
+.display-task__tr{
+	border:none;
+}
+/*  ----------- logout  ---------- */
+.logout__logout-btn{
+	margin:2em;
+	height:40px;
+	width:100px;
+}
+
+/* ------------ registration ----------------*/
+.display-registration__form{
+	margin:2em;
+	border:none;
+}
+.display-registration__submit-btn,
+.display-registration__return-btn{
+	margin:1em;
+	width:100px;
+	height:40px;
+}
+.display-registration__return-btn{
+	margin-bottom:2em;
+}
+
+.display-registration__tr,
+.display-registration__td{
+	border:none;
+}
+
+.registration-green-box{
+	border-style: double;
+	background-color: #80ff00;
+	max-width: 40em;
+	position:center;
+	padding-right:2em;
+	padding-left:2em;
+	padding-bottom:1em;
+	margin: 2em;
+}
+
+
+/*  ----------- edit task  ------------ */
+.edit-task__header{
+	margin-bottom:2em;
+	min-height:4em;
+	background-color: darkblue;
+}
+
+.edit-task__footer{
+	margin-top:2em;
+	min-height:4em;
+	background-color: darkblue;
+}
+
+.edit-green-box{
+	border-style: double;
+	background-color: #80ff00;
+	max-width: 40em;
+	position:center;
+	padding:2em;
+	margin: 2em;
+}
